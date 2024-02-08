@@ -105,7 +105,7 @@
     /*
       array.reduce((누적값, 배열 요소) => 반복해서 실행할 내용(누적연산), acc의 초기값);
     */
-
+    
     const total = traders
       .filter(trs => trs.trader.city === '서울')
       .reduce((acc, curr) => acc + curr.value, 0)
